@@ -1,0 +1,32 @@
+{
+  "name": "StarWarsbattle",
+  "version": "1.0.0",
+  "description": "Play sound on http request",
+  "node-main": "./index.js",
+  "main": "http://localhost:3000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "Star wars",
+    "icon": "assets/icon.png",
+    "toolbar": true,
+    "width": 200,
+    "height": 200,
+    "min_width": 200,
+    "min_height": 200,
+    "max_width": 200,
+    "max_height": 200,
+    "position": "mouse"
+  },
+  "author": "Gery Casiez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-hid": "^2.1.1",
+    "path": "^0.12.7",
+    "socket.io": "^3.0.4",
+    "socket.io-client": "^3.0.4",
+    "sound-play": "^1.0.5"
+  }
+}
